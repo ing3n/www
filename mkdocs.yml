@@ -1,0 +1,54 @@
+site_name: "GAMES IN G3N."
+site_description: "Guide Towards Building Games / Scenes In The G3N Game-Engine."
+site_author: "Jost Grant."
+site_url: "https://ing3n.github.io/"
+
+site_dir: "../ing3n.github.io"
+docs_dir: "site"
+
+copyright: "BSD-2 License x CC-BY 4.0 © 2022, Joshua Steven Grant (jostgrant)"
+repo_url: "https://github.com/ing3n"
+repo_name: "GH ORG"
+repo_url: "https://github.com/ing3n"
+edit_uri: "https://github.com/ing3n/www/edit/main/site"
+
+theme:
+  name: 'material'
+  logo: 'assets/logo.png'
+  favicon: 'assets/favi.ico'
+  features:
+    - tabs
+  palette:
+    primary: "black"
+    accent: "purple"
+
+site_dir: "../ing3n.github.io"
+docs_dir: "site"
+
+nav:
+    - "A Blit Foreword": "foreword.md"
+ #   - "Getting Setup / Go-ing":
+ #       - "Setting Up Your Environment": "env-setup.md"
+ #   - "Your First \"Game\"":
+ #       - "BreakThrough" : "breakthrough.md"
+
+extra:
+  social:
+    - icon: "fontawesome/brands/github-alt"
+      link: "https://github.com/jostgrant"
+    - icon: "fontawesome/brands/twitter"
+      link: "https://twitter.com/jsg_im"
+    - icon: 'fontawesome/solid/globe'
+      link: 'https://jostgrant.github.io'
+    - icon: 'fontawesome/solid/circle-dollar-to-slot'
+      link: 'https://patreon.com/jostgrant'
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
+      separator: "-"

@@ -1,0 +1,4 @@
+Unless Explicitly Stated Otherwise:
+All Code In This Project Is Under The BSD-2 License &
+All Content (Text, Pictures, Videos, Assets, etc) Are
+Under The CC-BY 4.0 License Or At-Option Later.
